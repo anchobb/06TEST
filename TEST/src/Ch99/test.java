@@ -29,9 +29,9 @@ class Buyer{
 	private int MyMoney;
 	private int AppleCnt;
 	
-	public void Payment(Seller seller01, int money) {
+	public void Payment(Seller seller1, int money) {
 		MyMoney -= money;
-		int cnt = seller01.Receive(money);
+		int cnt = seller1.Receive(money);
 		AppleCnt+=cnt;
 	}
 	
