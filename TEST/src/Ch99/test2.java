@@ -7,6 +7,7 @@ public class test2 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.print("높이 입력 : ");
 		int h = sc.nextInt();
 		int i = 0;
 		int j = 0;
